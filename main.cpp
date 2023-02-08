@@ -19,6 +19,8 @@ int main() {
   pokedex.push_back(Pokemon(4, "Charmander"));
   pokedex.push_back(Pokemon(7, "Squirtle"));
 
+
+
   for (int i = 0; i < pokedex.size(); i++) {
     std::cout << pokedex.get(i).id << " " << pokedex.get(i).name << std::endl;
   }
